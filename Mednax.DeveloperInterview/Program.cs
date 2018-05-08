@@ -17,13 +17,25 @@ namespace Mednax.DeveloperInterview
 
         /// <summary>
         /// Write a program that takes a number and a width also a number, as input and then displays a triangle of that width, using that number
+        ///
+        /// Enter a number: 6
+        /// Enter the desired width: 6
+        ///
+        /// Expected Output :
+        ///
+        /// 666666
+        /// 66666
+        /// 6666
+        /// 666
+        /// 66
+        /// 6
         /// </summary>
         public static void PrintTriangle()
         {
             Console.WriteLine();
             Console.WriteLine("Coding Exercise #1: Print Triangle");
             Console.WriteLine();
-            Console.WriteLine("Input a number: ");
+            Console.WriteLine("Enter a number: ");
 
             int num = Convert.ToInt32(Console.ReadLine());
 
