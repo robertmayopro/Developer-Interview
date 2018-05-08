@@ -20,7 +20,11 @@ namespace Mednax.DeveloperInterview
         /// </summary>
         public static void PrintTriangle()
         {
+            Console.WriteLine();
+            Console.WriteLine("Coding Exercise #1: Print Triangle");
+            Console.WriteLine();
             Console.WriteLine("Input a number: ");
+
             int num = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Input the desired width: ");
@@ -32,6 +36,10 @@ namespace Mednax.DeveloperInterview
         /// </summary>
         public static void PrintAverageSalaryByDepartment()
         {
+            Console.WriteLine();
+            Console.WriteLine("Coding Exercise #2: Print Average Salary By Department");
+            Console.WriteLine();
+
             var employees = new List<Employee>
             {
                 new Employee {Name = "Tom", Age = 32, Department = "Design", Salary = 120000},
@@ -40,8 +48,14 @@ namespace Mednax.DeveloperInterview
                 new Employee {Name = "Julie", Age = 54, Department = "Javascript", Salary = 80000},
                 new Employee {Name = "Samantha", Age = 21, Department = "Design", Salary = 125000}
             };
+        }
 
-            Console.WriteLine("Average salary by department: ");
+        internal class Employee
+        {
+            public string Name { get; set; }
+            public int Age { get; set; }
+            public string Department { get; set; }
+            public int Salary { get; set; }
         }
 
         /// <summary>
@@ -50,19 +64,27 @@ namespace Mednax.DeveloperInterview
         public static void DisplayNumberAndFrequencyFromGivenArray()
         {
             int[] arr1 = new int[] { 5, 9, 1, 2, 3, 7, 5, 6, 7, 3, 7, 6, 8, 5, 4, 9, 6, 2 };
-            Console.Write("\nLINQ : Display the number and frequency of number from given array : \n");
-            Console.Write("---------------------------------------------------------------------\n");
-            Console.Write("The numbers in the array  are : \n");
-            Console.Write(" 5, 9, 1, 2, 3, 7, 5, 6, 7, 3, 7, 6, 8, 5, 4, 9, 6, 2\n");
+
+            Console.WriteLine();
+            Console.WriteLine("Coding Exercise #3: Display the number and frequency of number from given array : ");
+            Console.WriteLine("---------------------------------------------------------------------");
+            Console.WriteLine("The numbers in the array  are : ");
+            Console.WriteLine(" 5, 9, 1, 2, 3, 7, 5, 6, 7, 3, 7, 6, 8, 5, 4, 9, 6, 2");
         }
 
         #region Palindrome 
 
         /// <summary>
-        /// Palindrome
+        /// Write a method to determine if a string is a palindrome
+        ///
+        /// Definition of palindrome: a word, phrase, or sequence that reads the same backward as forward
         /// </summary>
         public static void PrintIsPalindrome()
         {
+            Console.WriteLine();
+            Console.WriteLine("Coding Exercise #4: Palindrome");
+            Console.WriteLine();
+
             string[] array =
             {
                 "civic",
@@ -109,13 +131,5 @@ namespace Mednax.DeveloperInterview
         }
 
         #endregion
-
-        internal class Employee
-        {
-            public string Name { get; set; }
-            public int Age { get; set; }
-            public string Department { get; set; }
-            public int Salary { get; set; }
-        }
     }
 }
