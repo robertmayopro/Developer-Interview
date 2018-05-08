@@ -1,6 +1,6 @@
 # Shopping Cart TDD Kata
 
-## The purpose of this exercise is to demonstrate practical ability to write code based on user requirements using TDD and best practices.
+### The purpose of this exercise is to demonstrate practical ability to write code based on user requirements using TDD and best practices.
 
 ### User Stories:
 1.	As a user I want to add items to my cart.
