@@ -10,11 +10,10 @@
 
 ### Optional Requirements:
 1.  As a business owner I want to be able to mark items with special sales
-  #### Sales functionality has the following criteria
-    *  Buy x number of a product get 1 free.
-    *  Buy x number of a product for y price, in the case that less than the amount (X) is purchased the unit price should be calculated based on the sale and rounded up.  IE: 3 widgets for a dollar.  If 2 widgets are purchased the price would be calculated at 34 cents each.
-*  Buy product for discounted price.
-*  Sales should be able to be deactivated.
-1.	Sales should have a set start and end date
-1.	As a business owner I want to track items sold by day and hour
-1.	As a business owner I want to track prices of my items by day and hour
+  *  Buy x number of a product get 1 free.
+  *  Buy x number of a product for y price, in the case that less than the amount (X) is purchased the unit price should be calculated based on the sale and rounded up.  IE: 3 widgets for a dollar.  If 2 widgets are purchased the price would be calculated at 34 cents each.
+  *  Buy product for discounted price.
+  *  Sales should be able to be deactivated.
+2.	Sales should have a set start and end date
+3.	As a business owner I want to track items sold by day and hour
+4.	As a business owner I want to track prices of my items by day and hour
