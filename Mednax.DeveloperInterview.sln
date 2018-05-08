@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mednax.DeveloperInterview", "Mednax.DeveloperInterview\Mednax.DeveloperInterview.csproj", "{CEED7713-7E11-4993-8989-3FF73B91BC05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEED7713-7E11-4993-8989-3FF73B91BC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEED7713-7E11-4993-8989-3FF73B91BC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEED7713-7E11-4993-8989-3FF73B91BC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEED7713-7E11-4993-8989-3FF73B91BC05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D82269E-842F-41C1-A4CB-AE1611ABCC5D}
+	EndGlobalSection
+EndGlobal
