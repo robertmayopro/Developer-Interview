@@ -3,15 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mednax.DeveloperInterview", "Mednax.DeveloperInterview\Mednax.DeveloperInterview.csproj", "{CEED7713-7E11-4993-8989-3FF73B91BC05}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shopping Cart", "Shopping Cart", "{AB83967C-8252-4800-9565-675FB45372EC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mednax.DeveloperInterview.ShoppingCart", "Mednax.DeveloperInterview.ShoppingCart\Mednax.DeveloperInterview.ShoppingCart.csproj", "{1F98F75F-042A-4234-85FF-0FC39494796A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mednax.DeveloperInterview.ShoppingCart.Tests", "Mednax.DeveloperInterview.ShoppingCart.Tests\Mednax.DeveloperInterview.ShoppingCart.Tests.csproj", "{B550407B-716F-4B01-AB27-8015C6FD2989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mednax.DeveloperInterview", "Mednax.DeveloperInterview\Mednax.DeveloperInterview.csproj", "{CEED7713-7E11-4993-8989-3FF73B91BC05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Coding Exercises", "Coding Exercises", "{A7F48ED2-C997-468B-B871-0CCD61353437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mednax.DeveloperInterview.Test", "Mednax.DeveloperInterview.Test\Mednax.DeveloperInterview.Test.csproj", "{5882EB2F-53AD-462D-AF9C-D7CAC432013A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,22 +19,16 @@ Global
 		{CEED7713-7E11-4993-8989-3FF73B91BC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEED7713-7E11-4993-8989-3FF73B91BC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEED7713-7E11-4993-8989-3FF73B91BC05}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F98F75F-042A-4234-85FF-0FC39494796A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F98F75F-042A-4234-85FF-0FC39494796A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F98F75F-042A-4234-85FF-0FC39494796A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F98F75F-042A-4234-85FF-0FC39494796A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B550407B-716F-4B01-AB27-8015C6FD2989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B550407B-716F-4B01-AB27-8015C6FD2989}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B550407B-716F-4B01-AB27-8015C6FD2989}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B550407B-716F-4B01-AB27-8015C6FD2989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5882EB2F-53AD-462D-AF9C-D7CAC432013A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5882EB2F-53AD-462D-AF9C-D7CAC432013A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5882EB2F-53AD-462D-AF9C-D7CAC432013A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5882EB2F-53AD-462D-AF9C-D7CAC432013A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CEED7713-7E11-4993-8989-3FF73B91BC05} = {A7F48ED2-C997-468B-B871-0CCD61353437}
-		{1F98F75F-042A-4234-85FF-0FC39494796A} = {AB83967C-8252-4800-9565-675FB45372EC}
-		{B550407B-716F-4B01-AB27-8015C6FD2989} = {AB83967C-8252-4800-9565-675FB45372EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D82269E-842F-41C1-A4CB-AE1611ABCC5D}
