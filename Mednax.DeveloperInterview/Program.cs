@@ -30,6 +30,7 @@ namespace Mednax.DeveloperInterview
         /// 66
         /// 6
         /// </summary>
+ 
         public static void PrintTriangle()
         {
             Console.WriteLine();

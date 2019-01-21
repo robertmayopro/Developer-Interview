@@ -10,14 +10,6 @@ namespace Mednax.DeveloperInterview.TDD
     /// </summary>
     public class FizzBuzz
     {
-        public static string PrintFizzBuzz()
-        {
-            return String.Empty;
-        }
 
-        public static string PrintFizzBuzz(int number)
-        {
-            return String.Empty;
-        }
     }
 }
