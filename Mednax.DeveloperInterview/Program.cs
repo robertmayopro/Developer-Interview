@@ -3,6 +3,14 @@ using System.Collections.Generic;
 
 namespace Mednax.DeveloperInterview
 {
+    public class Employee
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Department { get; set; }
+        public int Salary { get; set; }
+    }
+
     public class Program
     {
         public static void Main(string[] args)
@@ -42,7 +50,14 @@ namespace Mednax.DeveloperInterview
 
             Console.WriteLine("Input the desired width: ");
             int width = Convert.ToInt32(Console.ReadLine());
+
+            IOutputWriter outputWriter = new ConsoleOutputWriter();
+            ProgramHarness programHarness = new ProgramHarness(outputWriter);
+
+            programHarness.WriteTriangle(num, width);
         }
+
+
 
         /// <summary>
         /// Print the average salary by department
@@ -61,15 +76,13 @@ namespace Mednax.DeveloperInterview
                 new Employee {Name = "Julie", Age = 54, Department = "Javascript", Salary = 80000},
                 new Employee {Name = "Samantha", Age = 21, Department = "Design", Salary = 125000}
             };
+
+            IOutputWriter outputWriter = new ConsoleOutputWriter();
+            ProgramHarness programHarness = new ProgramHarness(outputWriter);
+
+            programHarness.WriteAverageSalaryByDepartment(employees);
         }
 
-        internal class Employee
-        {
-            public string Name { get; set; }
-            public int Age { get; set; }
-            public string Department { get; set; }
-            public int Salary { get; set; }
-        }
 
         /// <summary>
         /// Display the number and frequency of number from given array
@@ -83,6 +96,11 @@ namespace Mednax.DeveloperInterview
             Console.WriteLine("---------------------------------------------------------------------");
             Console.WriteLine("The numbers in the array  are : ");
             Console.WriteLine(" 5, 9, 1, 2, 3, 7, 5, 6, 7, 3, 7, 6, 8, 5, 4, 9, 6, 2");
+
+            IOutputWriter outputWriter = new ConsoleOutputWriter();
+            ProgramHarness programHarness = new ProgramHarness(outputWriter);
+
+            programHarness.WriteNumberAndFrequencyFromGivenArray(arr1);
         }
 
         #region Palindrome 
@@ -132,16 +150,16 @@ namespace Mednax.DeveloperInterview
                 ""
             };
 
+            IOutputWriter outputWriter = new ConsoleOutputWriter();
+            ProgramHarness programHarness = new ProgramHarness(outputWriter);
+
             foreach (string value in array)
             {
-                Console.WriteLine("{0} = {1}", value, IsPalindrome(value));
+                Console.WriteLine("{0} = {1}", value, programHarness.IsPalindrome(value));
             }
         }
 
-        private static bool IsPalindrome(string value)
-        {
-            return true;
-        }
+      
 
         #endregion
     }
